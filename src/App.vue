@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import AppLayout from './shared/ui/AppLayout.vue'
+<script lang="ts" setup>
+// import { AppLayout } from '@/shared';
+import {AppLayout} from "./shared";
 </script>
 
 <template>
   <AppLayout>
-    <router-view />
+    <router-view/>
   </AppLayout>
 </template>
 

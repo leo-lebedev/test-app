@@ -3,7 +3,6 @@
     <header
         class="flex items-center justify-end px-10 py-3 h-[72px] bg-white sticky top-0 z-10 max-w-[1280px] mx-auto">
       <div class="flex items-center gap-2 text-muted">
-        <router-link class="btn" to="/order/new/edit">Создать заказ</router-link>
         <nav class="flex items-center gap-5">
           <button v-for="icon in icons" :key="icon.alt" class="">
             <img :alt="icon.alt" :src="icon.src" class="w-10 h-10"/>
